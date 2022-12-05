@@ -11,7 +11,7 @@ public class DatabaseConnection {
 		Connection connection = null;
 		String url = "jdbc:mysql://localhost:3306/demo";
 		String username ="root";
-		String password ="Honey@123";
+		String password ="";
 		
 		try {
 		//Establish the connection
