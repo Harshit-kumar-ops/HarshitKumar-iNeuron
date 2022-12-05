@@ -13,7 +13,7 @@ public class UsingPrepareStatement{
 		try {
 		String url = "jdbc:mysql://localhost:3306/demo";
 		String username ="root";
-		String password ="Honey@123";
+		String password ="";
 		connection   = DriverManager.getConnection(url,username,password);
 		}catch(Exception e)
 		{
